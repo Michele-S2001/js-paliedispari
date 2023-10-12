@@ -12,14 +12,14 @@ if (isPalindrome(userWord)) {
 function isPalindrome (word) {
  
   const wordFromLeftToRight = [];
-  for (let i = 0; i < userWord.length; i++) {
-    const charToRight = userWord[i];
+  for (let i = 0; i < word.length; i++) {
+    const charToRight = word[i];
     wordFromLeftToRight.push(charToRight);
   }
   
   const wordFromRightToLeft = [];
-  for (let i = userWord.length - 1; i >= 0; i--) {
-    const charToLeft = userWord[i];
+  for (let i = word.length - 1; i >= 0; i--) {
+    const charToLeft = word[i];
     wordFromRightToLeft.push(charToLeft);
   }
 
