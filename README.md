@@ -16,3 +16,16 @@
       - return true
     - ALTRIMENTI 
       - return false
+
+# Pari e dispari
+
+- L’utente sceglie pari o dispari
+  - dichiaro una variabile con un prompt che chieda di scrivere la scelta tra pari o dispari
+- l'utente inserisce un numero da 1 a 5
+  - dichiaro una variabile con un prompt che chieda un numero da 1 a 5
+
+- generare un numero da 1 a 5 al computer con una funzione assegnando il valore ad una variabile
+
+- sommare i due numeri in una funzione e vedi se è pari o dispari il risultato 
+
+- dichiara il vincitore
