@@ -10,20 +10,13 @@ if (isPalindrome(userWord)) {
 }
 
 function isPalindrome (word) {
- 
-  const wordFromLeftToRight = [];
-  for (let i = 0; i < word.length; i++) {
-    const charToRight = word[i];
-    wordFromLeftToRight.push(charToRight);
-  }
   
-  const wordFromRightToLeft = [];
+  let wordReverse = '';
   for (let i = word.length - 1; i >= 0; i--) {
-    const charToLeft = word[i];
-    wordFromRightToLeft.push(charToLeft);
+    wordReverse += word[i];
   }
 
-  if (wordFromLeftToRight.toString() === wordFromRightToLeft.toString()) {
+  if (word === wordReverse) {
     return true;
   } else {
     return false;
