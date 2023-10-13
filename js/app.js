@@ -1,7 +1,7 @@
 // ->->-> palindroma <-<-<-
 
 //chiedere una parola all'utente
-const userWord = (prompt('Inserisci una parola')).toLocaleLowerCase();
+const userWord = (prompt('Inserisci una parola')).toLowerCase();
 
 if (isPalindrome(userWord)) {
   console.log(`"${userWord}" è una parola palindroma`);
